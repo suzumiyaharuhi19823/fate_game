@@ -1,0 +1,3159 @@
+[
+  {
+    "id": 800100,
+    "name": "玛修·基列莱特",
+    "emblem": "玛",
+    "className": "shielder",
+    "rarity": 3
+  },
+  {
+    "id": 100100,
+    "name": "阿尔托莉雅·潘德拉贡",
+    "emblem": "阿",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 100200,
+    "name": "阿尔托莉雅·潘德拉贡〔Alter〕",
+    "emblem": "阿",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 100300,
+    "name": "阿尔托莉雅·潘德拉贡〔Lily〕",
+    "emblem": "阿",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 100500,
+    "name": "尼禄·克劳狄乌斯",
+    "emblem": "尼",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 100800,
+    "name": "齐格飞",
+    "emblem": "齐",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 101300,
+    "name": "盖乌斯·尤利乌斯·恺撒",
+    "emblem": "盖",
+    "className": "saber",
+    "rarity": 3
+  },
+  {
+    "id": 101800,
+    "name": "阿蒂拉",
+    "emblem": "阿",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 102200,
+    "name": "吉尔·德·雷",
+    "emblem": "吉",
+    "className": "saber",
+    "rarity": 3
+  },
+  {
+    "id": 102600,
+    "name": "骑士迪昂",
+    "emblem": "骑",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 200100,
+    "name": "卫宫",
+    "emblem": "卫",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 200200,
+    "name": "吉尔伽美什",
+    "emblem": "吉",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 200300,
+    "name": "罗宾汉",
+    "emblem": "罗",
+    "className": "archer",
+    "rarity": 3
+  },
+  {
+    "id": 200500,
+    "name": "阿塔兰忒",
+    "emblem": "阿",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 201200,
+    "name": "尤瑞艾莉",
+    "emblem": "尤",
+    "className": "archer",
+    "rarity": 3
+  },
+  {
+    "id": 201300,
+    "name": "阿拉什",
+    "emblem": "阿",
+    "className": "archer",
+    "rarity": 1
+  },
+  {
+    "id": 300100,
+    "name": "库·丘林",
+    "emblem": "库",
+    "className": "lancer",
+    "rarity": 3
+  },
+  {
+    "id": 300500,
+    "name": "伊丽莎白·巴托里",
+    "emblem": "伊",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 300600,
+    "name": "武藏坊弁庆",
+    "emblem": "武",
+    "className": "lancer",
+    "rarity": 2
+  },
+  {
+    "id": 300700,
+    "name": "库·丘林〔Prototype〕",
+    "emblem": "库",
+    "className": "lancer",
+    "rarity": 3
+  },
+  {
+    "id": 300900,
+    "name": "列奥尼达一世",
+    "emblem": "列",
+    "className": "lancer",
+    "rarity": 2
+  },
+  {
+    "id": 301000,
+    "name": "罗穆路斯",
+    "emblem": "罗",
+    "className": "lancer",
+    "rarity": 3
+  },
+  {
+    "id": 400100,
+    "name": "歌果",
+    "emblem": "歌",
+    "className": "rider",
+    "rarity": 3
+  },
+  {
+    "id": 400600,
+    "name": "乔尔乔斯",
+    "emblem": "乔",
+    "className": "rider",
+    "rarity": 2
+  },
+  {
+    "id": 400800,
+    "name": "爱迪·萨奇",
+    "emblem": "爱",
+    "className": "rider",
+    "rarity": 2
+  },
+  {
+    "id": 401100,
+    "name": "布狄卡",
+    "emblem": "布",
+    "className": "rider",
+    "rarity": 3
+  },
+  {
+    "id": 401400,
+    "name": "牛若丸",
+    "emblem": "牛",
+    "className": "rider",
+    "rarity": 3
+  },
+  {
+    "id": 401500,
+    "name": "亚历山大",
+    "emblem": "亚",
+    "className": "rider",
+    "rarity": 3
+  },
+  {
+    "id": 401700,
+    "name": "玛丽·安托瓦内特",
+    "emblem": "玛",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 401900,
+    "name": "玛尔达",
+    "emblem": "玛",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 500100,
+    "name": "美狄亚",
+    "emblem": "美",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 500200,
+    "name": "吉尔·德·雷",
+    "emblem": "吉",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 500500,
+    "name": "汉斯·克里斯蒂安·安徒生",
+    "emblem": "汉",
+    "className": "caster",
+    "rarity": 2
+  },
+  {
+    "id": 500700,
+    "name": "威廉·莎士比亚",
+    "emblem": "威",
+    "className": "caster",
+    "rarity": 2
+  },
+  {
+    "id": 501400,
+    "name": "梅菲斯托费勒斯",
+    "emblem": "梅",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 501500,
+    "name": "沃尔夫冈·阿马德乌斯·莫扎特",
+    "emblem": "沃",
+    "className": "caster",
+    "rarity": 1
+  },
+  {
+    "id": 501900,
+    "name": "诸葛孔明〔埃尔梅罗Ⅱ世〕",
+    "emblem": "诸",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 502100,
+    "name": "库·丘林",
+    "emblem": "库",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 600100,
+    "name": "佐佐木小次郎",
+    "emblem": "佐",
+    "className": "assassin",
+    "rarity": 1
+  },
+  {
+    "id": 600200,
+    "name": "咒腕哈桑",
+    "emblem": "咒",
+    "className": "assassin",
+    "rarity": 2
+  },
+  {
+    "id": 601000,
+    "name": "斯忒诺",
+    "emblem": "斯",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 601100,
+    "name": "匕见",
+    "emblem": "匕",
+    "className": "assassin",
+    "rarity": 3
+  },
+  {
+    "id": 601200,
+    "name": "夏尔·亨利·桑松",
+    "emblem": "夏",
+    "className": "assassin",
+    "rarity": 2
+  },
+  {
+    "id": 601300,
+    "name": "剧院魅影",
+    "emblem": "剧",
+    "className": "assassin",
+    "rarity": 2
+  },
+  {
+    "id": 601400,
+    "name": "玛塔·哈丽",
+    "emblem": "玛",
+    "className": "assassin",
+    "rarity": 1
+  },
+  {
+    "id": 601700,
+    "name": "卡米拉",
+    "emblem": "卡",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 700100,
+    "name": "赫拉克勒斯",
+    "emblem": "赫",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 700200,
+    "name": "兰斯洛特",
+    "emblem": "兰",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 700300,
+    "name": "虎狼",
+    "emblem": "虎",
+    "className": "berserker",
+    "rarity": 3
+  },
+  {
+    "id": 700500,
+    "name": "斯巴达克斯",
+    "emblem": "斯",
+    "className": "berserker",
+    "rarity": 1
+  },
+  {
+    "id": 700600,
+    "name": "坂田金时",
+    "emblem": "坂",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 700700,
+    "name": "弗拉德三世",
+    "emblem": "弗",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 700900,
+    "name": "阿斯忒里俄斯",
+    "emblem": "阿",
+    "className": "berserker",
+    "rarity": 1
+  },
+  {
+    "id": 701000,
+    "name": "卡利古拉",
+    "emblem": "卡",
+    "className": "berserker",
+    "rarity": 2
+  },
+  {
+    "id": 701100,
+    "name": "大流士三世",
+    "emblem": "大",
+    "className": "berserker",
+    "rarity": 3
+  },
+  {
+    "id": 701300,
+    "name": "清姬",
+    "emblem": "清",
+    "className": "berserker",
+    "rarity": 3
+  },
+  {
+    "id": 701500,
+    "name": "血斧埃里克",
+    "emblem": "血",
+    "className": "berserker",
+    "rarity": 2
+  },
+  {
+    "id": 701600,
+    "name": "玉藻猫",
+    "emblem": "玉",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 900100,
+    "name": "贞德",
+    "emblem": "贞",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 200900,
+    "name": "俄里翁",
+    "emblem": "俄",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 502600,
+    "name": "伊丽莎白·巴托里〔万圣节〕",
+    "emblem": "伊",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 500300,
+    "name": "玉藻前",
+    "emblem": "玉",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 200600,
+    "name": "大卫",
+    "emblem": "大",
+    "className": "archer",
+    "rarity": 3
+  },
+  {
+    "id": 301600,
+    "name": "赫克托耳",
+    "emblem": "赫",
+    "className": "lancer",
+    "rarity": 3
+  },
+  {
+    "id": 400300,
+    "name": "弗朗西斯·德雷克",
+    "emblem": "弗",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 400900,
+    "name": "安妮·伯妮＆玛莉·瑞德",
+    "emblem": "安",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 501700,
+    "name": "美狄亚〔Lily〕",
+    "emblem": "美",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 102700,
+    "name": "冲田总司",
+    "emblem": "冲",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 202400,
+    "name": "织田信长",
+    "emblem": "织",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 301300,
+    "name": "斯卡哈",
+    "emblem": "斯",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 300200,
+    "name": "迪尔姆德·奥迪那",
+    "emblem": "迪",
+    "className": "lancer",
+    "rarity": 3
+  },
+  {
+    "id": 101400,
+    "name": "弗格斯·马克·罗伊",
+    "emblem": "弗",
+    "className": "saber",
+    "rarity": 3
+  },
+  {
+    "id": 402200,
+    "name": "阿尔托莉雅·潘德拉贡〔圣诞Alter〕",
+    "emblem": "阿",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 500400,
+    "name": "童谣",
+    "emblem": "童",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 600500,
+    "name": "雾都弃子",
+    "emblem": "雾",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 100900,
+    "name": "莫德雷德",
+    "emblem": "莫",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 201100,
+    "name": "尼古拉·特斯拉",
+    "emblem": "尼",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 301900,
+    "name": "阿尔托莉雅·潘德拉贡〔Alter〕",
+    "emblem": "阿",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 501000,
+    "name": "冯·霍恩海姆·帕拉塞尔苏斯",
+    "emblem": "冯",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 501100,
+    "name": "查尔斯·巴贝奇",
+    "emblem": "查",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 600700,
+    "name": "亨利·杰基尔＆海德",
+    "emblem": "亨",
+    "className": "assassin",
+    "rarity": 3
+  },
+  {
+    "id": 700400,
+    "name": "弗兰肯斯坦",
+    "emblem": "弗",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 1700100,
+    "name": "所罗门",
+    "emblem": "所",
+    "className": "loreGrandCaster",
+    "rarity": 5
+  },
+  {
+    "id": 201500,
+    "name": "阿周那",
+    "emblem": "阿",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 300400,
+    "name": "迦尔纳",
+    "emblem": "迦",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 601800,
+    "name": "谜之女主角X",
+    "emblem": "谜",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 301100,
+    "name": "芬恩·麦克库尔",
+    "emblem": "芬",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 301200,
+    "name": "布伦希尔德",
+    "emblem": "布",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 700800,
+    "name": "贝奥武夫",
+    "emblem": "贝",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 100600,
+    "name": "尼禄·克劳狄乌斯〔新娘〕",
+    "emblem": "尼",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 102800,
+    "name": "两仪式",
+    "emblem": "两",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 602300,
+    "name": "两仪式",
+    "emblem": "两",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 900200,
+    "name": "天草四郎",
+    "emblem": "天",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 400400,
+    "name": "阿斯托尔福",
+    "emblem": "阿",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 201800,
+    "name": "幼吉尔",
+    "emblem": "幼",
+    "className": "archer",
+    "rarity": 3
+  },
+  {
+    "id": 1100200,
+    "name": "岩窟王",
+    "emblem": "岩",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 701400,
+    "name": "南丁格尔",
+    "emblem": "南",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 702000,
+    "name": "库·丘林〔Alter〕",
+    "emblem": "库",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 401300,
+    "name": "女王梅芙",
+    "emblem": "女",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 502300,
+    "name": "海伦娜·布拉瓦茨基",
+    "emblem": "海",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 101900,
+    "name": "罗摩",
+    "emblem": "罗",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 301700,
+    "name": "李书文",
+    "emblem": "李",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 502500,
+    "name": "托马斯·爱迪生",
+    "emblem": "托",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 501600,
+    "name": "杰罗尼莫",
+    "emblem": "杰",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 201000,
+    "name": "比利小子",
+    "emblem": "比",
+    "className": "archer",
+    "rarity": 3
+  },
+  {
+    "id": 1100300,
+    "name": "贞德〔Alter〕",
+    "emblem": "贞",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 1100100,
+    "name": "安哥拉曼纽",
+    "emblem": "安",
+    "className": "avenger",
+    "rarity": 0
+  },
+  {
+    "id": 400200,
+    "name": "伊斯坎达尔",
+    "emblem": "伊",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 601500,
+    "name": "卫宫〔Assassin〕",
+    "emblem": "卫",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 600300,
+    "name": "百貌哈桑",
+    "emblem": "百",
+    "className": "assassin",
+    "rarity": 3
+  },
+  {
+    "id": 502000,
+    "name": "爱丽丝菲尔〔天之衣〕",
+    "emblem": "爱",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 602100,
+    "name": "酒吞童子",
+    "emblem": "酒",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 502200,
+    "name": "西行者",
+    "emblem": "西",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 702300,
+    "name": "源赖光",
+    "emblem": "源",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 402300,
+    "name": "坂田金时",
+    "emblem": "坂",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 702200,
+    "name": "茨木童子",
+    "emblem": "茨",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 601900,
+    "name": "风魔小太郎",
+    "emblem": "风",
+    "className": "assassin",
+    "rarity": 3
+  },
+  {
+    "id": 401200,
+    "name": "奥斯曼狄斯",
+    "emblem": "奥",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 302000,
+    "name": "阿尔托莉雅·潘德拉贡",
+    "emblem": "阿",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 501200,
+    "name": "尼托克丽丝",
+    "emblem": "尼",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 102000,
+    "name": "兰斯洛特",
+    "emblem": "兰",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 200800,
+    "name": "崔斯坦",
+    "emblem": "崔",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 100700,
+    "name": "高文",
+    "emblem": "高",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 600900,
+    "name": "静谧哈桑",
+    "emblem": "静",
+    "className": "assassin",
+    "rarity": 3
+  },
+  {
+    "id": 201400,
+    "name": "俵藤太",
+    "emblem": "俵",
+    "className": "archer",
+    "rarity": 3
+  },
+  {
+    "id": 101200,
+    "name": "贝德维尔",
+    "emblem": "贝",
+    "className": "saber",
+    "rarity": 3
+  },
+  {
+    "id": 500900,
+    "name": "莱昂纳多·达·芬奇",
+    "emblem": "莱",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 302400,
+    "name": "玉藻前",
+    "emblem": "玉",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 202600,
+    "name": "阿尔托莉雅·潘德拉贡",
+    "emblem": "阿",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 502700,
+    "name": "玛丽·安托瓦内特",
+    "emblem": "玛",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 202500,
+    "name": "安妮·伯妮＆玛莉·瑞德",
+    "emblem": "安",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 402400,
+    "name": "莫德雷德",
+    "emblem": "莫",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 602400,
+    "name": "斯卡哈",
+    "emblem": "斯",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 302500,
+    "name": "清姬",
+    "emblem": "清",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 900400,
+    "name": "玛尔达",
+    "emblem": "玛",
+    "className": "ruler",
+    "rarity": 4
+  },
+  {
+    "id": 502800,
+    "name": "伊莉雅丝菲尔·冯·爱因兹贝伦",
+    "emblem": "伊",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 202700,
+    "name": "克洛伊·冯·爱因兹贝伦",
+    "emblem": "克",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 101000,
+    "name": "伊丽莎白·巴托里〔勇者〕",
+    "emblem": "伊",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 600800,
+    "name": "克娄巴特拉",
+    "emblem": "克",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 300300,
+    "name": "弗拉德三世〔EXTRA〕",
+    "emblem": "弗",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 302600,
+    "name": "贞德·Alter·Santa·Lily",
+    "emblem": "贞",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 202000,
+    "name": "伊什塔尔",
+    "emblem": "伊",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 300800,
+    "name": "恩奇都",
+    "emblem": "恩",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 401800,
+    "name": "魁札尔·科亚特尔",
+    "emblem": "魁",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 501800,
+    "name": "吉尔伽美什",
+    "emblem": "吉",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 302700,
+    "name": "美杜莎",
+    "emblem": "美",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 1100400,
+    "name": "戈耳工",
+    "emblem": "戈",
+    "className": "avenger",
+    "rarity": 4
+  },
+  {
+    "id": 302800,
+    "name": "豹人",
+    "emblem": "豹",
+    "className": "lancer",
+    "rarity": 3
+  },
+  {
+    "id": 9935400,
+    "name": "提亚马特",
+    "emblem": "提",
+    "className": "beastII",
+    "rarity": 5
+  },
+  {
+    "id": 500800,
+    "name": "梅林",
+    "emblem": "梅",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 9935500,
+    "name": "盖提亚",
+    "emblem": "盖",
+    "className": "beastI",
+    "rarity": 5
+  },
+  {
+    "id": 9935530,
+    "name": "所罗门",
+    "emblem": "所",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 101700,
+    "name": "宫本武藏",
+    "emblem": "宫",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 602500,
+    "name": "“山中老人”",
+    "emblem": "“",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 702400,
+    "name": "谜之女主角X〔Alter〕",
+    "emblem": "谜",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 202300,
+    "name": "詹姆斯·莫里亚蒂",
+    "emblem": "詹",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 201600,
+    "name": "卫宫〔Alter〕",
+    "emblem": "卫",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 1100500,
+    "name": "黑森·罗伯",
+    "emblem": "黑",
+    "className": "avenger",
+    "rarity": 4
+  },
+  {
+    "id": 602600,
+    "name": "燕青",
+    "emblem": "燕",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 102900,
+    "name": "亚瑟·潘德拉贡〔Prototype〕",
+    "emblem": "亚",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 702500,
+    "name": "土方岁三",
+    "emblem": "土",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 702600,
+    "name": "茶茶",
+    "emblem": "茶",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 1000200,
+    "name": "Meltryllis",
+    "emblem": "M",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 1000100,
+    "name": "Passionlip",
+    "emblem": "P",
+    "className": "alterEgo",
+    "rarity": 4
+  },
+  {
+    "id": 103000,
+    "name": "铃鹿御前",
+    "emblem": "铃",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 2300100,
+    "name": "BB",
+    "emblem": "B",
+    "className": "moonCancer",
+    "rarity": 4
+  },
+  {
+    "id": 1000300,
+    "name": "瞑生院祈荒",
+    "emblem": "瞑",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 9939130,
+    "name": "BeastⅢ／R",
+    "emblem": "B",
+    "className": "beastIIIR",
+    "rarity": 5
+  },
+  {
+    "id": 503000,
+    "name": "山鲁佐德",
+    "emblem": "山",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 602700,
+    "name": "周照",
+    "emblem": "周",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 702700,
+    "name": "彭忒西勒亚",
+    "emblem": "彭",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 402500,
+    "name": "克里斯托弗·哥伦布",
+    "emblem": "克",
+    "className": "rider",
+    "rarity": 3
+  },
+  {
+    "id": 900500,
+    "name": "夏洛克·福尔摩斯",
+    "emblem": "夏",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 702800,
+    "name": "保罗·班扬",
+    "emblem": "保",
+    "className": "berserker",
+    "rarity": 1
+  },
+  {
+    "id": 503200,
+    "name": "尼禄·克劳狄乌斯",
+    "emblem": "尼",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 103100,
+    "name": "弗兰肯斯坦",
+    "emblem": "弗",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 602800,
+    "name": "尼托克丽丝",
+    "emblem": "尼",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 702900,
+    "name": "织田信长",
+    "emblem": "织",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 402700,
+    "name": "阿尔托莉雅·潘德拉贡〔Alter〕",
+    "emblem": "阿",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 202800,
+    "name": "海伦娜·布拉瓦茨基",
+    "emblem": "海",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 302900,
+    "name": "源赖光",
+    "emblem": "源",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 402600,
+    "name": "伊什塔尔",
+    "emblem": "伊",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 303000,
+    "name": "帕尔瓦蒂",
+    "emblem": "帕",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 202100,
+    "name": "巴御前",
+    "emblem": "巴",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 602900,
+    "name": "望月千代女",
+    "emblem": "望",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 301400,
+    "name": "宝藏院胤舜",
+    "emblem": "宝",
+    "className": "lancer",
+    "rarity": 3
+  },
+  {
+    "id": 103200,
+    "name": "柳生但马守宗矩",
+    "emblem": "柳",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 603000,
+    "name": "加藤段藏",
+    "emblem": "加",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 603100,
+    "name": "刑部姬",
+    "emblem": "刑",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 1000400,
+    "name": "机械伊丽亲",
+    "emblem": "机",
+    "className": "alterEgo",
+    "rarity": 4
+  },
+  {
+    "id": 1000500,
+    "name": "机械伊丽亲Ⅱ号机",
+    "emblem": "机",
+    "className": "alterEgo",
+    "rarity": 4
+  },
+  {
+    "id": 503300,
+    "name": "喀耳刻",
+    "emblem": "喀",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 303100,
+    "name": "莲偶",
+    "emblem": "莲",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 503400,
+    "name": "示巴女王",
+    "emblem": "示",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 2500100,
+    "name": "阿比盖尔·威廉姆斯",
+    "emblem": "阿",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 303200,
+    "name": "埃列什基伽勒",
+    "emblem": "埃",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 202200,
+    "name": "阿蒂拉·the·San〔ta〕",
+    "emblem": "阿",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 2500200,
+    "name": "葛饰北斋",
+    "emblem": "葛",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 603200,
+    "name": "塞弥拉弥斯",
+    "emblem": "塞",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 202900,
+    "name": "浅上藤乃",
+    "emblem": "浅",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 503500,
+    "name": "阿纳斯塔西娅",
+    "emblem": "阿",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 703000,
+    "name": "阿塔兰忒〔Alter〕",
+    "emblem": "阿",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 503600,
+    "name": "阿维斯布隆",
+    "emblem": "阿",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 1100600,
+    "name": "安东尼奥·萨列里",
+    "emblem": "安",
+    "className": "avenger",
+    "rarity": 3
+  },
+  {
+    "id": 402800,
+    "name": "伊凡雷帝",
+    "emblem": "伊",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 402900,
+    "name": "阿喀琉斯",
+    "emblem": "阿",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 203000,
+    "name": "喀戎",
+    "emblem": "喀",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 503800,
+    "name": "齐格",
+    "emblem": "齐",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 1000700,
+    "name": "冲田总司〔Alter〕",
+    "emblem": "冲",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 603300,
+    "name": "冈田以藏",
+    "emblem": "冈",
+    "className": "assassin",
+    "rarity": 3
+  },
+  {
+    "id": 403000,
+    "name": "坂本龙马",
+    "emblem": "坂",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 203100,
+    "name": "拿破仑",
+    "emblem": "拿",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 103300,
+    "name": "齐格鲁德",
+    "emblem": "齐",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 303300,
+    "name": "瓦尔基里",
+    "emblem": "瓦",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 503900,
+    "name": "斯卡哈·斯卡蒂",
+    "emblem": "斯",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 203200,
+    "name": "贞德",
+    "emblem": "贞",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 303400,
+    "name": "茨木童子",
+    "emblem": "茨",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 603400,
+    "name": "牛若丸",
+    "emblem": "牛",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 703100,
+    "name": "贞德〔Alter〕",
+    "emblem": "贞",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 2300200,
+    "name": "BB",
+    "emblem": "B",
+    "className": "moonCancer",
+    "rarity": 5
+  },
+  {
+    "id": 103400,
+    "name": "女王梅芙",
+    "emblem": "女",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 2500300,
+    "name": "谜之女主角XX",
+    "emblem": "谜",
+    "className": "foreigner",
+    "rarity": 4
+  },
+  {
+    "id": 103500,
+    "name": "迪尔姆德·奥迪那",
+    "emblem": "迪",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 1000800,
+    "name": "志度内",
+    "emblem": "志",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 504000,
+    "name": "酒吞童子",
+    "emblem": "酒",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 703200,
+    "name": "重瞳",
+    "emblem": "重",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 103600,
+    "name": "兰陵王",
+    "emblem": "兰",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 303500,
+    "name": "忠贞",
+    "emblem": "忠",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 900600,
+    "name": "祖政",
+    "emblem": "祖",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 603500,
+    "name": "雏罂",
+    "emblem": "雏",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 403100,
+    "name": "丹驹",
+    "emblem": "丹",
+    "className": "rider",
+    "rarity": 3
+  },
+  {
+    "id": 303600,
+    "name": "布拉达曼特",
+    "emblem": "布",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 900700,
+    "name": "魁札尔·科亚特尔〔桑巴／圣诞〕",
+    "emblem": "魁",
+    "className": "ruler",
+    "rarity": 4
+  },
+  {
+    "id": 103700,
+    "name": "红阎魔",
+    "emblem": "红",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 603600,
+    "name": "李书文",
+    "emblem": "李",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 504100,
+    "name": "美游·艾德费尔特",
+    "emblem": "美",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 504200,
+    "name": "紫式部",
+    "emblem": "紫",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 1000900,
+    "name": "Kingprotea",
+    "emblem": "K",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 603700,
+    "name": "迦摩",
+    "emblem": "迦",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 9941730,
+    "name": "BeastⅢ／L",
+    "emblem": "B",
+    "className": "beastIIIL",
+    "rarity": 5
+  },
+  {
+    "id": 403200,
+    "name": "莱妮丝",
+    "emblem": "莱",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 900800,
+    "name": "阿斯特赖亚",
+    "emblem": "阿",
+    "className": "ruler",
+    "rarity": 4
+  },
+  {
+    "id": 603900,
+    "name": "格蕾",
+    "emblem": "格",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 2300300,
+    "name": "伟大的石像神",
+    "emblem": "伟",
+    "className": "moonCancer",
+    "rarity": 5
+  },
+  {
+    "id": 103900,
+    "name": "拉克什米·芭伊",
+    "emblem": "拉",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 203400,
+    "name": "威廉·退尔",
+    "emblem": "威",
+    "className": "archer",
+    "rarity": 3
+  },
+  {
+    "id": 703300,
+    "name": "阿周那〔Alter〕",
+    "emblem": "阿",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 203300,
+    "name": "马嘶",
+    "emblem": "马",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 504300,
+    "name": "阿斯克勒庇俄斯",
+    "emblem": "阿",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 1100700,
+    "name": "织田信长",
+    "emblem": "织",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 703500,
+    "name": "森长可",
+    "emblem": "森",
+    "className": "berserker",
+    "rarity": 3
+  },
+  {
+    "id": 303800,
+    "name": "长尾景虎",
+    "emblem": "长",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 403500,
+    "name": "莱昂纳多·达·芬奇",
+    "emblem": "莱",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 103800,
+    "name": "伊阿宋",
+    "emblem": "伊",
+    "className": "saber",
+    "rarity": 1
+  },
+  {
+    "id": 203500,
+    "name": "帕里斯",
+    "emblem": "帕",
+    "className": "archer",
+    "rarity": 2
+  },
+  {
+    "id": 303900,
+    "name": "加雷斯",
+    "emblem": "加",
+    "className": "lancer",
+    "rarity": 2
+  },
+  {
+    "id": 403400,
+    "name": "巴沙洛缪·罗伯茨",
+    "emblem": "巴",
+    "className": "rider",
+    "rarity": 1
+  },
+  {
+    "id": 504400,
+    "name": "陈宫",
+    "emblem": "陈",
+    "className": "caster",
+    "rarity": 2
+  },
+  {
+    "id": 603800,
+    "name": "夏洛特·科黛",
+    "emblem": "夏",
+    "className": "assassin",
+    "rarity": 1
+  },
+  {
+    "id": 703400,
+    "name": "莎乐美",
+    "emblem": "莎",
+    "className": "berserker",
+    "rarity": 2
+  },
+  {
+    "id": 703600,
+    "name": "宫本武藏",
+    "emblem": "宫",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 203600,
+    "name": "刑部姬",
+    "emblem": "刑",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 403600,
+    "name": "卡米拉",
+    "emblem": "卡",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 104000,
+    "name": "葛饰北斋",
+    "emblem": "葛",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 900900,
+    "name": "阿尔托莉雅·潘德拉贡",
+    "emblem": "阿",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 304000,
+    "name": "谜之Alterego·Λ",
+    "emblem": "谜",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 604000,
+    "name": "冲田·J·总司",
+    "emblem": "冲",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 1100900,
+    "name": "太空伊什塔尔",
+    "emblem": "太",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 203700,
+    "name": "灾星简",
+    "emblem": "灾",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 104100,
+    "name": "阿斯托尔福",
+    "emblem": "阿",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 203900,
+    "name": "南丁格尔〔圣诞〕",
+    "emblem": "南",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 203800,
+    "name": "超人俄里翁",
+    "emblem": "超",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 403900,
+    "name": "曼迪卡尔多",
+    "emblem": "曼",
+    "className": "rider",
+    "rarity": 3
+  },
+  {
+    "id": 404000,
+    "name": "欧罗巴",
+    "emblem": "欧",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 2500400,
+    "name": "琰女",
+    "emblem": "琰",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 204000,
+    "name": "清少纳言",
+    "emblem": "清",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 403800,
+    "name": "奥德修斯",
+    "emblem": "奥",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 104200,
+    "name": "狄俄斯库里",
+    "emblem": "狄",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 304100,
+    "name": "凯妮斯",
+    "emblem": "凯",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 304200,
+    "name": "罗穆路斯·奎里努斯",
+    "emblem": "罗",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 2500500,
+    "name": "旅行者",
+    "emblem": "旅",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 703700,
+    "name": "鬼女红叶",
+    "emblem": "鬼",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 304300,
+    "name": "宇津见绘里濑",
+    "emblem": "宇",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 504500,
+    "name": "阿尔托莉雅·卡斯特",
+    "emblem": "阿",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 2300400,
+    "name": "瞑生院祈荒",
+    "emblem": "瞑",
+    "className": "moonCancer",
+    "rarity": 5
+  },
+  {
+    "id": 204200,
+    "name": "伊莉雅丝菲尔·冯·爱因兹贝伦",
+    "emblem": "伊",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 703800,
+    "name": "布伦希尔德",
+    "emblem": "布",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 304400,
+    "name": "雏罂",
+    "emblem": "雏",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 2500700,
+    "name": "阿比盖尔·威廉姆斯〔夏〕",
+    "emblem": "阿",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 104500,
+    "name": "巴御前",
+    "emblem": "巴",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 404100,
+    "name": "紫式部",
+    "emblem": "紫",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 901000,
+    "name": "卑弥呼",
+    "emblem": "卑",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 104400,
+    "name": "斋藤一",
+    "emblem": "斋",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 204100,
+    "name": "织田信胜",
+    "emblem": "织",
+    "className": "archer",
+    "rarity": 1
+  },
+  {
+    "id": 2500600,
+    "name": "梵高",
+    "emblem": "梵",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 403700,
+    "name": "尼莫",
+    "emblem": "尼",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 1001000,
+    "name": "芦屋道满",
+    "emblem": "芦",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 104700,
+    "name": "渡边纲",
+    "emblem": "渡",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 104600,
+    "name": "伊吹童子",
+    "emblem": "伊",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 304600,
+    "name": "弗栗多",
+    "emblem": "弗",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 104800,
+    "name": "迦尔纳〔圣诞〕",
+    "emblem": "迦",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 104900,
+    "name": "千子村正",
+    "emblem": "千",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 1101000,
+    "name": "平景清",
+    "emblem": "平",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 604100,
+    "name": "鬼一法眼",
+    "emblem": "鬼",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 901100,
+    "name": "阿摩耳〔卡莲〕",
+    "emblem": "阿",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 703900,
+    "name": "伽拉忒亚",
+    "emblem": "伽",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 504600,
+    "name": "克莱恩小姐",
+    "emblem": "克",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 2500800,
+    "name": "谜之偶像X〔Alter〕",
+    "emblem": "谜",
+    "className": "foreigner",
+    "rarity": 4
+  },
+  {
+    "id": 704000,
+    "name": "摩根",
+    "emblem": "摩",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 105000,
+    "name": "妖精骑士高文",
+    "emblem": "妖",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 204300,
+    "name": "妖精骑士崔斯坦",
+    "emblem": "妖",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 304800,
+    "name": "妖精骑士兰斯洛特",
+    "emblem": "妖",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 304700,
+    "name": "珀西瓦尔",
+    "emblem": "珀",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 604200,
+    "name": "光之高扬斯卡娅",
+    "emblem": "光",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 404200,
+    "name": "哈贝特洛特",
+    "emblem": "哈",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 2800100,
+    "name": "奥伯龙",
+    "emblem": "奥",
+    "className": "pretender",
+    "rarity": 5
+  },
+  {
+    "id": 105100,
+    "name": "冲田总司〔Alter〕",
+    "emblem": "冲",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 204400,
+    "name": "阿纳斯塔西娅＆维",
+    "emblem": "阿",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 504800,
+    "name": "夏洛特·科黛",
+    "emblem": "夏",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 901200,
+    "name": "莱昂纳多·达·芬奇",
+    "emblem": "莱",
+    "className": "ruler",
+    "rarity": 4
+  },
+  {
+    "id": 1101100,
+    "name": "迦摩",
+    "emblem": "迦",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 404500,
+    "name": "凯妮斯",
+    "emblem": "凯",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 704100,
+    "name": "清少纳言",
+    "emblem": "清",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 2501000,
+    "name": "雅克·德·莫莱",
+    "emblem": "雅",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 204500,
+    "name": "芝诺比阿",
+    "emblem": "芝",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 404600,
+    "name": "伊丽莎白·巴托里〔灰姑娘〕",
+    "emblem": "伊",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 504900,
+    "name": "出云阿国",
+    "emblem": "出",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 1101200,
+    "name": "谜之兰丸X",
+    "emblem": "谜",
+    "className": "avenger",
+    "rarity": 4
+  },
+  {
+    "id": 305000,
+    "name": "坂本龙马",
+    "emblem": "坂",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 505000,
+    "name": "玛尔达〔圣诞〕",
+    "emblem": "玛",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 404300,
+    "name": "太公望",
+    "emblem": "太",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 404400,
+    "name": "多布雷尼亚·尼基季奇",
+    "emblem": "多",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 9943610,
+    "name": "Beast Ⅳ",
+    "emblem": "B",
+    "className": "beastIV",
+    "rarity": 5
+  },
+  {
+    "id": 2500900,
+    "name": "暗之高扬斯卡娅",
+    "emblem": "暗",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 2800200,
+    "name": "赫费斯提翁",
+    "emblem": "赫",
+    "className": "pretender",
+    "rarity": 4
+  },
+  {
+    "id": 1001100,
+    "name": "马纳南·麦克·利尔〔巴泽特〕",
+    "emblem": "马",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 105300,
+    "name": "征氏姐妹",
+    "emblem": "征",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 1001200,
+    "name": "太岁星君",
+    "emblem": "太",
+    "className": "alterEgo",
+    "rarity": 4
+  },
+  {
+    "id": 1001300,
+    "name": "超级班扬",
+    "emblem": "超",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 504700,
+    "name": "大黑天",
+    "emblem": "大",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 304900,
+    "name": "玛丽·安宁",
+    "emblem": "玛",
+    "className": "lancer",
+    "rarity": 1
+  },
+  {
+    "id": 404700,
+    "name": "君士坦丁十一世",
+    "emblem": "君",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 105200,
+    "name": "查理曼",
+    "emblem": "查",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 104300,
+    "name": "罗兰",
+    "emblem": "罗",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 704200,
+    "name": "克里姆希尔德",
+    "emblem": "克",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 901300,
+    "name": "詹姆斯·莫里亚蒂",
+    "emblem": "詹",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 305100,
+    "name": "堂·吉诃德",
+    "emblem": "堂",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 505100,
+    "name": "张角",
+    "emblem": "张",
+    "className": "caster",
+    "rarity": 3
+  },
+  {
+    "id": 404800,
+    "name": "曲亭马琴",
+    "emblem": "曲",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 204600,
+    "name": "源为朝",
+    "emblem": "源",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 2300500,
+    "name": "Archetype：Earth",
+    "emblem": "A",
+    "className": "moonCancer",
+    "rarity": 5
+  },
+  {
+    "id": 1001400,
+    "name": "方巿",
+    "emblem": "方",
+    "className": "alterEgo",
+    "rarity": 3
+  },
+  {
+    "id": 2800300,
+    "name": "阿瓦隆女士",
+    "emblem": "阿",
+    "className": "pretender",
+    "rarity": 5
+  },
+  {
+    "id": 105400,
+    "name": "加雷斯",
+    "emblem": "加",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 704300,
+    "name": "伊吹童子",
+    "emblem": "伊",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 1101400,
+    "name": "宇津见绘里濑",
+    "emblem": "宇",
+    "className": "avenger",
+    "rarity": 4
+  },
+  {
+    "id": 901400,
+    "name": "斯卡哈·斯卡蒂",
+    "emblem": "斯",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 505200,
+    "name": "周照",
+    "emblem": "周",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 604500,
+    "name": "斯露德",
+    "emblem": "斯",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 604400,
+    "name": "希露德",
+    "emblem": "希",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 604300,
+    "name": "奥特琳德",
+    "emblem": "奥",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 704400,
+    "name": "千利休",
+    "emblem": "千",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 105500,
+    "name": "山南敬助",
+    "emblem": "山",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 901500,
+    "name": "壹与",
+    "emblem": "壹",
+    "className": "ruler",
+    "rarity": 4
+  },
+  {
+    "id": 604600,
+    "name": "吾绰",
+    "emblem": "吾",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 404900,
+    "name": "黄飞虎",
+    "emblem": "黄",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 2800400,
+    "name": "九纹龙伊丽莎",
+    "emblem": "九",
+    "className": "pretender",
+    "rarity": 4
+  },
+  {
+    "id": 305300,
+    "name": "布里托玛特",
+    "emblem": "布",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 1001500,
+    "name": "格里戈里·拉斯普京",
+    "emblem": "格",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 1101500,
+    "name": "尼托克丽丝〔Alter〕",
+    "emblem": "尼",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 604700,
+    "name": "特斯卡特利波卡",
+    "emblem": "特",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 2800500,
+    "name": "特拉洛克",
+    "emblem": "特",
+    "className": "pretender",
+    "rarity": 4
+  },
+  {
+    "id": 2501100,
+    "name": "库库尔坎",
+    "emblem": "库",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 901600,
+    "name": "女教皇若安",
+    "emblem": "女",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 204700,
+    "name": "高杉晋作",
+    "emblem": "高",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 1001600,
+    "name": "幼体／提亚马特",
+    "emblem": "幼",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 3300100,
+    "name": "所多玛之兽／德拉科",
+    "emblem": "所",
+    "className": "beast",
+    "rarity": 5
+  },
+  {
+    "id": 604800,
+    "name": "洛库斯塔",
+    "emblem": "洛",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 105700,
+    "name": "瑟坦特",
+    "emblem": "瑟",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 604900,
+    "name": "果心居士",
+    "emblem": "果",
+    "className": "assassin",
+    "rarity": 5
+  },
+  {
+    "id": 305400,
+    "name": "怖军",
+    "emblem": "怖",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 704600,
+    "name": "难敌",
+    "emblem": "难",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 204800,
+    "name": "杜尔伽",
+    "emblem": "杜",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 105600,
+    "name": "美杜莎",
+    "emblem": "美",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 505300,
+    "name": "雨之魔女梣",
+    "emblem": "雨",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 704700,
+    "name": "阿尔托莉雅·卡斯特",
+    "emblem": "阿",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 405000,
+    "name": "铃鹿御前〔暑假〕",
+    "emblem": "铃",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 1101600,
+    "name": "克洛伊·冯·爱因兹贝伦",
+    "emblem": "克",
+    "className": "avenger",
+    "rarity": 4
+  },
+  {
+    "id": 2501200,
+    "name": "诺克娜蕾·雅兰杜",
+    "emblem": "诺",
+    "className": "foreigner",
+    "rarity": 4
+  },
+  {
+    "id": 901700,
+    "name": "梅柳齐娜",
+    "emblem": "梅",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 204900,
+    "name": "ＵＤＫ－巴格斯特",
+    "emblem": "Ｕ",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 2800600,
+    "name": "凯特·库·米可科尔",
+    "emblem": "凯",
+    "className": "pretender",
+    "rarity": 4
+  },
+  {
+    "id": 2501300,
+    "name": "旺吉娜",
+    "emblem": "旺",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 205000,
+    "name": "托勒密",
+    "emblem": "托",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 205100,
+    "name": "杉谷善住坊",
+    "emblem": "杉",
+    "className": "archer",
+    "rarity": 3
+  },
+  {
+    "id": 105800,
+    "name": "忒修斯",
+    "emblem": "忒",
+    "className": "saber",
+    "rarity": 3
+  },
+  {
+    "id": 405200,
+    "name": "武田晴信",
+    "emblem": "武",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 704800,
+    "name": "永仓新八",
+    "emblem": "永",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 205200,
+    "name": "杂贺孙一",
+    "emblem": "杂",
+    "className": "archer",
+    "rarity": 4
+  },
+  {
+    "id": 901800,
+    "name": "上杉谦信",
+    "emblem": "上",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 405300,
+    "name": "尼莫〔圣诞〕",
+    "emblem": "尼",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 105900,
+    "name": "大和武尊",
+    "emblem": "大",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 1101800,
+    "name": "源赖光／丑御前",
+    "emblem": "源",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 505400,
+    "name": "由井正雪",
+    "emblem": "由",
+    "className": "caster",
+    "rarity": 4
+  },
+  {
+    "id": 106000,
+    "name": "宫本伊织",
+    "emblem": "宫",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 405500,
+    "name": "安德洛墨达",
+    "emblem": "安",
+    "className": "rider",
+    "rarity": 5
+  },
+  {
+    "id": 1101300,
+    "name": "玛丽·安托瓦内特〔Alter〕",
+    "emblem": "玛",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 605000,
+    "name": "耀星哈桑",
+    "emblem": "耀",
+    "className": "assassin",
+    "rarity": 4
+  },
+  {
+    "id": 1101700,
+    "name": "岩窟王　基督山",
+    "emblem": "岩",
+    "className": "avenger",
+    "rarity": 5
+  },
+  {
+    "id": 2800700,
+    "name": "亚历山德罗·迪·卡利奥斯特罗",
+    "emblem": "亚",
+    "className": "pretender",
+    "rarity": 4
+  },
+  {
+    "id": 9945590,
+    "name": "Ｅ－火玛丽",
+    "emblem": "Ｅ",
+    "className": "uOlgaMarieFlareCollection",
+    "rarity": 0
+  },
+  {
+    "id": 9945600,
+    "name": "Ｅ－水玛丽",
+    "emblem": "Ｅ",
+    "className": "uOlgaMarieAquaCollection",
+    "rarity": 0
+  },
+  {
+    "id": 2501400,
+    "name": "苍崎青子",
+    "emblem": "苍",
+    "className": "foreigner",
+    "rarity": 5
+  },
+  {
+    "id": 704900,
+    "name": "静希草十郎",
+    "emblem": "静",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 505500,
+    "name": "久远寺有珠",
+    "emblem": "久",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 1001700,
+    "name": "响＆千键",
+    "emblem": "响",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 3300200,
+    "name": "埃列什基伽勒",
+    "emblem": "埃",
+    "className": "beastEresh",
+    "rarity": 5
+  },
+  {
+    "id": 2300900,
+    "name": "谜之代行者C.I.E.L",
+    "emblem": "谜",
+    "className": "moonCancer",
+    "rarity": 5
+  },
+  {
+    "id": 305500,
+    "name": "多布雷尼亚·尼基季奇",
+    "emblem": "多",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 1101900,
+    "name": "方巿",
+    "emblem": "方",
+    "className": "avenger",
+    "rarity": 4
+  },
+  {
+    "id": 2300600,
+    "name": "ＢＢ迪拜",
+    "emblem": "Ｂ",
+    "className": "moonCancer",
+    "rarity": 5
+  },
+  {
+    "id": 2301000,
+    "name": "特诺奇蒂特兰",
+    "emblem": "特",
+    "className": "moonCancer",
+    "rarity": 4
+  },
+  {
+    "id": 2501600,
+    "name": "谜之女主角XX〔Alter〕",
+    "emblem": "谜",
+    "className": "foreigner",
+    "rarity": 4
+  },
+  {
+    "id": 2300700,
+    "name": "岸波白野",
+    "emblem": "岸",
+    "className": "moonCancer",
+    "rarity": 4
+  },
+  {
+    "id": 2300800,
+    "name": "岸波白野",
+    "emblem": "岸",
+    "className": "moonCancer",
+    "rarity": 4
+  },
+  {
+    "id": 1001800,
+    "name": "Kazuradrop",
+    "emblem": "K",
+    "className": "alterEgo",
+    "rarity": 5
+  },
+  {
+    "id": 205300,
+    "name": "图坦卡蒙",
+    "emblem": "图",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 305600,
+    "name": "梵高〔矿工〕",
+    "emblem": "梵",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 705000,
+    "name": "娄希",
+    "emblem": "娄",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 2800800,
+    "name": "阿比盖尔·威廉姆斯〔圣诞〕",
+    "emblem": "阿",
+    "className": "pretender",
+    "rarity": 4
+  },
+  {
+    "id": 2800900,
+    "name": "Phantasmoon",
+    "emblem": "P",
+    "className": "pretender",
+    "rarity": 5
+  },
+  {
+    "id": 106100,
+    "name": "理查一世",
+    "emblem": "理",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 305700,
+    "name": "比肖内",
+    "emblem": "比",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 106200,
+    "name": "黑姬",
+    "emblem": "黑",
+    "className": "saber",
+    "rarity": 4
+  },
+  {
+    "id": 505800,
+    "name": "小野小町",
+    "emblem": "小",
+    "className": "caster",
+    "rarity": 5
+  },
+  {
+    "id": 9946280,
+    "name": "Ｅ－宏玛丽",
+    "emblem": "Ｅ",
+    "className": "uOlgaMarieGrandCollection",
+    "rarity": 0
+  },
+  {
+    "id": 2801000,
+    "name": "但丁·阿利吉耶里",
+    "emblem": "但",
+    "className": "pretender",
+    "rarity": 5
+  },
+  {
+    "id": 901900,
+    "name": "梅塔特隆·贞德",
+    "emblem": "梅",
+    "className": "ruler",
+    "rarity": 5
+  },
+  {
+    "id": 305800,
+    "name": "阿育王",
+    "emblem": "阿",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 705100,
+    "name": "莉莉丝",
+    "emblem": "莉",
+    "className": "berserker",
+    "rarity": 5
+  },
+  {
+    "id": 2801100,
+    "name": "堤丰·厄斐墨洛斯",
+    "emblem": "堤",
+    "className": "pretender",
+    "rarity": 5
+  },
+  {
+    "id": 305900,
+    "name": "因陀罗",
+    "emblem": "因",
+    "className": "lancer",
+    "rarity": 5
+  },
+  {
+    "id": 9946760,
+    "name": "Ｅ－星玛丽",
+    "emblem": "Ｅ",
+    "className": "uOlgaMarieStellarCollection",
+    "rarity": 0
+  },
+  {
+    "id": 4000100,
+    "name": "Ｕ－奥尔加玛丽",
+    "emblem": "Ｕ",
+    "className": "unBeastOlgaMarie",
+    "rarity": 5
+  },
+  {
+    "id": 106300,
+    "name": "Passionlip",
+    "emblem": "P",
+    "className": "saber",
+    "rarity": 5
+  },
+  {
+    "id": 405800,
+    "name": "克里姆希尔德",
+    "emblem": "克",
+    "className": "rider",
+    "rarity": 4
+  },
+  {
+    "id": 705200,
+    "name": "吾绰",
+    "emblem": "吾",
+    "className": "berserker",
+    "rarity": 4
+  },
+  {
+    "id": 2301100,
+    "name": "玉兔",
+    "emblem": "玉",
+    "className": "moonCancer",
+    "rarity": 5
+  },
+  {
+    "id": 306000,
+    "name": "美游·艾德费尔特",
+    "emblem": "美",
+    "className": "lancer",
+    "rarity": 4
+  },
+  {
+    "id": 205400,
+    "name": "幼体／提亚马特",
+    "emblem": "幼",
+    "className": "archer",
+    "rarity": 5
+  },
+  {
+    "id": 1001900,
+    "name": "热内斯·克莱恩",
+    "emblem": "热",
+    "className": "alterEgo",
+    "rarity": 4
+  }
+]

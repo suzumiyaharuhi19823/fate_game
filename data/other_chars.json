@@ -1,0 +1,75 @@
+{
+  "title": "魔法使之夜配角档案",
+  "characters": [
+    {
+      "id": "munami",
+      "name": "木乃美芳助",
+      "trueName": "木乃美芳助",
+      "type": "学生",
+      "role": "公认的笨蛋",
+      "magicAttribute": "无 / 冷场",
+      "description": "性格开朗直爽但不会察言观色，是典型的冷场制造机。只在谈论与女孩子相关的话题时，智商才会短暂恢复正常。",
+      "image": "images/munami.png"
+    },
+    {
+      "id": "tsukushi",
+      "name": "槻司鸢丸",
+      "trueName": "槻司鸢丸",
+      "type": "学生",
+      "role": "外冷内热的观察者",
+      "magicAttribute": "无 / 观察",
+      "description": "外表看似粗野不羁、言语刻薄，实则内心细腻且矛盾重重，是草十郎少数交心的人之一。",
+      "image": "images/tsukushi_tobimaru.png"
+    },
+    {
+      "id": "kumari",
+      "name": "久万梨金鹿",
+      "trueName": "久万梨金鹿",
+      "type": "学生",
+      "role": "腹黑美少女",
+      "magicAttribute": "无 / 腹黑",
+      "description": "外表可爱，但背地里性格非常腹黑，是让男生们畏惧的存在。",
+      "image": "images/kumari_kojika.png"
+    },
+    {
+      "id": "ritsuka",
+      "name": "周濑律架",
+      "trueName": "周濑律架",
+      "type": "学生",
+      "role": "爽朗外向的少女",
+      "magicAttribute": "无 / 恋爱与侦探",
+      "description": "性格爽朗外向，深受久远寺有珠和草十郎的仰慕。对恋爱和侦探作品情有独钟。",
+      "image": "images/suse_ritsuka.png"
+    },
+    {
+      "id": "yuika",
+      "name": "周濑唯架",
+      "trueName": "周濑唯架",
+      "type": "修女",
+      "role": "虔诚修女",
+      "magicAttribute": "信仰 / 修女",
+      "description": "性格极其认真，甚至有些过头，是镇上出名的虔诚修女。虽然是个美人，但似乎没什么朋友。",
+      "image": "images/suse_yuika.png"
+    },
+    {
+      "id": "touko",
+      "name": "苍崎橙子",
+      "trueName": "苍崎橙子",
+      "type": "魔术师 / 人偶师",
+      "role": "被封印的顶尖魔术师",
+      "magicAttribute": "地 / 傀儡",
+      "description": "青子的姐姐，被封印的顶尖魔术师和人偶使。被青子夺走继承权后长年在外漂泊，拥有精湛的人偶制作技艺和残酷的决断力。",
+      "image": "images/aozaki_toko.png"
+    },
+    {
+      "id": "robin",
+      "name": "罗宾",
+      "trueName": "罗宾",
+      "type": "使魔 / 蓝鸟",
+      "role": "有珠的智慧蓝鸟",
+      "magicAttribute": "童话 / 使魔",
+      "description": "有珠的使魔，是一只拥有智慧的蓝鸟。性格傲慢，讲话像绅士或者毒舌，忠实地执行久远寺有珠的指令。",
+      "image": "images/robin.png"
+    }
+  ]
+}

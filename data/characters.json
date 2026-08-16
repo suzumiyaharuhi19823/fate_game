@@ -1,0 +1,68 @@
+{
+  "title": "魔法使之夜角色档案",
+  "characters": [
+    {
+      "id": "aoko",
+      "name": "苍崎青子",
+      "englishName": "Aoko Aozaki",
+      "title": "第五魔法使",
+      "class": "魔术师",
+      "description": "性格明快，使用苍崎家的魔术与第五魔法。",
+      "attributes": {
+        "element": "风 / 时间",
+        "circuit": "苍崎家魔术回路",
+        "magic": "第五魔法 · 时间干涉"
+      },
+      "hp": 720,
+      "normal_atk": 125,
+      "skill_name": "第五魔法",
+      "skill_damage": 360,
+      "image": "images/aoko.png",
+      "magicImage": "images/aoko2.png",
+      "scenarioImage": "images/aoko3.png",
+      "battleImage": "images/aoko4.png"
+    },
+    {
+      "id": "alice",
+      "name": "久远寺有珠",
+      "englishName": "Alice Kuonji",
+      "title": "魔女的继承者",
+      "class": "魔女",
+      "description": "寡言而敏锐，使用童话怪物与歌谣。",
+      "attributes": {
+        "element": "夜 / 影",
+        "circuit": "久远寺家的魔术回路",
+        "magic": "童话怪物 · 歌谣"
+      },
+      "hp": 840,
+      "normal_atk": 90,
+      "skill_name": "童话怪物",
+      "skill_damage": 310,
+      "image": "images/alice.png",
+      "magicImage": "images/alice2.png",
+      "scenarioImage": "images/alice3.png",
+      "battleImage": "images/alice4.png"
+    },
+    {
+      "id": "soujirou",
+      "name": "静希草十郎",
+      "englishName": "Soujirou Shizuki",
+      "title": "无谋的来客",
+      "class": "普通人",
+      "description": "拥有异常身体能力，尚未觉醒魔术。",
+      "attributes": {
+        "element": "肉体 / 直感",
+        "circuit": "未觉醒的魔术回路",
+        "magic": "超常身体能力"
+      },
+      "hp": 980,
+      "normal_atk": 115,
+      "skill_name": "无谋的一击",
+      "skill_damage": 260,
+      "image": "images/soujirou.png",
+      "magicImage": "images/soujirou2.png",
+      "scenarioImage": "images/soujirou3.png",
+      "battleImage": "images/soujirou4.png"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "touko",
+    "name": "苍崎橙子",
+    "englishName": "Touko Aozaki",
+    "title": "最高位人偶师",
+    "class": "魔术师",
+    "description": "苍崎家的长女，精于人偶制作与卢恩魔术。",
+    "attributes": {
+      "element": "地 / 傀儡",
+      "circuit": "苍崎家魔术回路",
+      "magic": "人偶制作 · 卢恩"
+    },
+    "hp": 860,
+    "normal_atk": 105,
+    "skill_name": "傀儡秘仪",
+    "skill_damage": 320,
+    "skill_effect": "制造替身，抵挡一次致死伤害并进行反击。",
+    "image": "images/touko.png"
+  },
+  {
+    "id": "lugh",
+    "name": "鲁格·贝奥武夫",
+    "englishName": "Lugh Beowulf",
+    "title": "黄金之狼",
+    "class": "金狼",
+    "description": "拥有变形能力的金色狼兽，以本能与速度作战。",
+    "attributes": {
+      "element": "兽 / 月",
+      "circuit": "兽性魔力",
+      "magic": "变形"
+    },
+    "hp": 900,
+    "normal_atk": 140,
+    "skill_name": "金狼显现",
+    "skill_damage": 340,
+    "skill_effect": "完全兽化，提升攻击力，并在每回合恢复少量生命。",
+    "image": "images/lugh.png"
+  },
+  {
+    "id": "tobimaru",
+    "name": "槻司鳶丸",
+    "englishName": "Tobimaru Tsukushi",
+    "title": "敏锐的观察者",
+    "class": "学生",
+    "description": "青子的友人，善于观察并找出对手的破绽。",
+    "attributes": {
+      "element": "无",
+      "circuit": "无",
+      "magic": "分析"
+    },
+    "hp": 650,
+    "normal_atk": 80,
+    "skill_name": "弱点识破",
+    "skill_damage": 180,
+    "skill_effect": "标记敌方弱点，使其后续受到的伤害提高。",
+    "image": "images/tobimaru.png"
+  },
+  {
+    "id": "yuika",
+    "name": "周濑唯架",
+    "englishName": "Yuika Suse",
+    "title": "开朗的支援者",
+    "class": "学生",
+    "description": "校园中的同伴，擅长鼓舞士气与临场支援。",
+    "attributes": {
+      "element": "无",
+      "circuit": "无",
+      "magic": "支援"
+    },
+    "hp": 600,
+    "normal_atk": 70,
+    "skill_name": "灵机一动",
+    "skill_damage": 150,
+    "skill_effect": "鼓舞队友，恢复一名队友少量生命并解除弱化。",
+    "image": "images/yuika.png"
+  },
+  {
+    "id": "ritsuka",
+    "name": "周濑律架",
+    "englishName": "Ritsuka Suse",
+    "title": "爽朗外向的少女",
+    "class": "学生",
+    "description": "性格爽朗外向，深受久远寺有珠和草十郎的仰慕。对恋爱和侦探作品情有独钟。",
+    "attributes": {
+      "element": "无",
+      "circuit": "无",
+      "magic": "恋爱与侦探"
+    },
+    "hp": 680,
+    "normal_atk": 82,
+    "skill_name": "爽朗应援",
+    "skill_damage": 175,
+    "skill_effect": "鼓舞全队士气，使下一次攻击获得额外加成。",
+    "image": "images/ritsuka.png"
+  }
+]

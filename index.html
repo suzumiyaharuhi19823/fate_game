@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#101326">
+  <title>魔法使之夜 · 静寂的黄昏</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <img class="background-image" src="images/background.png" alt="">
+  <div class="background-veil" aria-hidden="true"></div>
+  <div class="night-sky" aria-hidden="true">
+    <span class="moon"></span>
+    <span class="star star--one"></span>
+    <span class="star star--two"></span>
+    <span class="star star--three"></span>
+    <span class="star star--four"></span>
+  </div>
+  <audio id="bgm-audio" preload="metadata" loop></audio>
+
+  <div class="site-shell">
+    <header class="masthead">
+      <div class="masthead__identity">
+        <p class="eyebrow">Mahoutsukai no Yoru / Prototype</p>
+        <h1>魔法使之夜</h1>
+        <p class="masthead__subtitle">黄昏之后，魔术师们的故事在蓝紫色的夜色里醒来。</p>
+      </div>
+      <div class="masthead__controls">
+        <button
+          id="bgm-settings-button"
+          class="bgm-settings-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="bgm-settings-panel"
+          title="音乐设置"
+        >
+          BGM
+        </button>
+        <span class="masthead__sigil" aria-hidden="true"></span>
+      </div>
+    </header>
+
+    <aside
+      id="bgm-settings-panel"
+      class="bgm-settings-panel"
+      aria-label="音乐设置"
+      hidden
+    >
+      <div class="bgm-settings-panel__header">
+        <p class="eyebrow">BGM Settings</p>
+        <button
+          id="bgm-settings-close"
+          class="bgm-settings-panel__close"
+          type="button"
+          aria-label="关闭音乐设置"
+        >
+          ×
+        </button>
+      </div>
+
+      <p id="bgm-status" class="bgm-status" role="status">正在准备音乐...</p>
+
+      <div class="bgm-settings-row">
+        <span>播放状态</span>
+        <button id="bgm-toggle" class="bgm-toggle" type="button">
+          播放
+        </button>
+      </div>
+
+      <label class="bgm-settings-field" for="bgm-volume">
+        <span>音量</span>
+        <input
+          id="bgm-volume"
+          type="range"
+          min="0"
+          max="1"
+          step="0.05"
+          value="0.55"
+        >
+      </label>
+
+      <label class="bgm-settings-field" for="bgm-track-select">
+        <span>曲目</span>
+        <select id="bgm-track-select">
+          <option value="audio/bgm.mp3">默认 BGM</option>
+          <option value="audio/night.mp3">夜色 BGM</option>
+          <option value="audio/moon.mp3">月光 BGM</option>
+        </select>
+      </label>
+
+      <label class="bgm-file-upload" for="bgm-file-input">
+        选择本地音乐
+        <input
+          id="bgm-file-input"
+          type="file"
+          accept="audio/*"
+          hidden
+        >
+      </label>
+    </aside>
+
+    <nav class="app-nav" aria-label="游戏功能区">
+      <button
+        id="nav-characters"
+        class="app-nav__button is-active"
+        type="button"
+        data-panel-target="characters"
+        aria-pressed="true"
+      >
+        角色档案
+      </button>
+      <button
+        id="nav-battle"
+        class="app-nav__button"
+        type="button"
+        data-panel-target="battle"
+        aria-pressed="false"
+      >
+        编队战斗
+      </button>
+      <button
+        id="nav-daily"
+        class="app-nav__button"
+        type="button"
+        data-panel-target="daily"
+        aria-pressed="false"
+      >
+        每日抽卡
+      </button>
+      <button
+        id="nav-fate"
+        class="app-nav__button"
+        type="button"
+        data-panel-target="fate"
+        aria-pressed="false"
+      >
+        Fate模拟抽卡
+      </button>
+      <button
+        id="nav-leaderboard"
+        class="app-nav__button"
+        type="button"
+        data-panel-target="leaderboard"
+        aria-pressed="false"
+      >
+        排行榜
+      </button>
+    </nav>
+
+    <div class="app-panels">
+      <div
+        id="panel-characters"
+        class="app-panel is-active"
+        data-panel="characters"
+        aria-labelledby="nav-characters"
+      >
+        <section class="synopsis-section" aria-labelledby="synopsis-title">
+          <img
+            class="synopsis-section__background"
+            src="images/synopsis_bg.png"
+            alt="魔法使之夜剧情背景"
+          >
+          <div class="synopsis-section__overlay" aria-hidden="true"></div>
+          <div class="synopsis-section__content">
+            <p class="eyebrow">Story Synopsis</p>
+            <h2 id="synopsis-title">魔法使之夜 · 剧情梗概</h2>
+            <p>
+              在1980年代的三咲町，第五魔法使苍崎青子与魔女久远寺有珠、
+              以及没有魔术的静希草十郎相遇。夜色之下，古老的魔术与现代城市交错，
+              一段属于魔法与平凡人的故事由此开始。
+            </p>
+          </div>
+        </section>
+
+        <main class="game-layout">
+      <section class="chronicle" aria-labelledby="scene-title">
+        <header class="section-heading">
+          <span class="section-heading__index" aria-hidden="true">01</span>
+          <div>
+            <p class="eyebrow">魔法使之夜记录</p>
+            <h2 id="scene-title">三咲町的静夜</h2>
+          </div>
+        </header>
+
+        <figure class="scene-frame">
+          <span
+            id="scene-image-frame"
+            class="scene-image-fallback image-fallback"
+            data-fallback="NIGHT"
+          >
+            <img id="scene-image" src="images/night_scene.png" alt="三咲町的夜色">
+          </span>
+        </figure>
+
+        <p id="scene-text" class="scene-copy">
+          黄昏沉入远山，路灯逐一点亮。三咲町的夜晚安静得像是时间本身放慢了脚步。
+        </p>
+      </section>
+
+      <section class="roster" aria-labelledby="roster-heading">
+        <header class="section-heading">
+          <span class="section-heading__index" aria-hidden="true">02</span>
+          <div>
+            <p class="eyebrow">魔术师档案</p>
+            <h2 id="roster-heading">三位见证者</h2>
+          </div>
+        </header>
+
+        <p id="roster-status" class="roster-status" role="status">正在读取魔术档案...</p>
+        <div id="character-roster" class="character-roster"></div>
+
+        <div class="summon-record" aria-live="polite">
+          <p class="eyebrow">魔术记录</p>
+          <h3 id="selected-name">尚未接触</h3>
+          <p id="selected-description" class="summon-record__description">夜色仍在等待回应。</p>
+          <dl class="summon-stats">
+            <div>
+              <dt>属性</dt>
+              <dd id="selected-element">--</dd>
+            </div>
+            <div>
+              <dt>回路</dt>
+              <dd id="selected-circuit">--</dd>
+            </div>
+            <div>
+              <dt>魔术</dt>
+              <dd id="selected-magic">--</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <section
+      class="support-characters-section"
+      aria-labelledby="support-characters-heading"
+    >
+      <header class="support-characters-header">
+        <div>
+          <p class="eyebrow">配角档案</p>
+          <h3 id="support-characters-heading">七位同行者</h3>
+        </div>
+      </header>
+
+      <div class="support-preview-layout">
+        <div class="support-feature">
+          <span
+            id="support-feature-image-frame"
+            class="support-feature__image-frame image-fallback"
+            data-fallback="木乃"
+          >
+            <img
+              id="support-feature-image"
+              class="support-feature__image"
+              src="images/munami.png"
+              alt="木乃美芳助"
+            >
+          </span>
+          <div class="support-feature__copy">
+            <p class="eyebrow">Selected Character</p>
+            <h4 id="support-feature-name">木乃美芳助</h4>
+            <p id="support-feature-role">公认的笨蛋</p>
+            <p id="support-feature-description">
+              性格开朗直爽但不会察言观色，是典型的冷场制造机。只在谈论与女孩子相关的话题时，智商才会短暂恢复正常。
+            </p>
+          </div>
+        </div>
+        <div id="support-character-roster" class="support-character-roster"></div>
+      </div>
+    </section>
+
+    <section class="magic-lab" aria-labelledby="magic-lab-heading">
+      <header class="section-heading magic-lab__heading">
+        <span class="section-heading__index" aria-hidden="true">03</span>
+        <div>
+          <p class="eyebrow">魔术回路</p>
+          <h2 id="magic-lab-heading">夜幕下的选择</h2>
+        </div>
+      </header>
+
+      <div class="magic-lab__intro">
+        <div>
+          <p class="magic-lab__note">魔术师们尚未回应。夜色的纹理正在等待选择。</p>
+          <p id="magic-circuit-message" class="magic-result-message" role="status">魔术回路尚未展开。</p>
+        </div>
+        <button id="magic-circuit-button" class="magic-circuit-button" type="button" disabled>
+          <span class="magic-circuit-button__diamond" aria-hidden="true"></span>
+          <span id="magic-circuit-button-label">展开魔术回路</span>
+        </button>
+      </div>
+
+      <div id="magic-circuit-grid" class="magic-circuit-grid" aria-live="polite"></div>
+
+      <div id="magic-branch-panel" class="magic-branch-panel" hidden>
+        <div class="magic-branch-panel__heading">
+          <p class="eyebrow">魔术情境</p>
+          <h3 id="magic-branch-title">夜色开始转动</h3>
+        </div>
+        <p id="magic-branch-text" class="magic-branch-panel__text">选择将改变接下来的魔术情境。</p>
+        <div id="magic-branch-options" class="magic-branch-options"></div>
+
+        <div id="magic-outcome" class="magic-outcome" hidden>
+          <span
+            id="magic-outcome-image-frame"
+            class="magic-outcome__image-frame image-fallback"
+            data-fallback="AOKO"
+          >
+            <img id="magic-outcome-image" class="magic-outcome__image" src="images/aoko.png" alt="">
+          </span>
+          <div class="magic-outcome__copy">
+            <p class="eyebrow">夜色回应</p>
+            <h4 id="magic-outcome-title">魔术情境</h4>
+            <p id="magic-outcome-text">夜色给出了回应。</p>
+          </div>
+        </div>
+      </div>
+      </section>
+      </div>
+
+      <section
+        id="panel-battle"
+        class="app-panel app-panel--placeholder"
+        data-panel="battle"
+        aria-labelledby="nav-battle"
+        hidden
+      >
+        <div class="battle-panel">
+          <header class="battle-panel__heading">
+            <p class="eyebrow">Team Battle</p>
+            <h2>编队战斗</h2>
+            <p class="battle-panel__description">组成三人队伍，迎战夜色中随机出现的敌人。</p>
+          </header>
+
+          <div id="battle-setup" class="battle-setup">
+            <div class="battle-pool-header">
+              <div>
+                <p class="eyebrow">Player Party</p>
+                <h3>选择三位出战角色</h3>
+              </div>
+              <p id="battle-selection-count" class="battle-selection-count">已选择 0 / 3</p>
+            </div>
+            <div id="battle-character-pool" class="battle-character-pool"></div>
+            <button
+              id="battle-start-button"
+              class="battle-action-button battle-action-button--primary"
+              type="button"
+              disabled
+            >
+              确认编队并开始战斗
+            </button>
+            <img
+              class="battle-bottom-bg"
+              src="images/battle_bottom_bg.png"
+              alt="编队战斗底部装饰图"
+            >
+          </div>
+
+          <div id="battle-arena" class="battle-arena" hidden>
+            <div class="battle-teams">
+              <section class="battle-team battle-team--player" aria-labelledby="battle-player-heading">
+                <header class="battle-team__heading">
+                  <p class="eyebrow">Player</p>
+                  <h3 id="battle-player-heading">玩家队伍</h3>
+                </header>
+                <div id="battle-player-team" class="battle-team__roster"></div>
+              </section>
+
+              <div class="battle-versus" aria-hidden="true">VS</div>
+
+              <section class="battle-team battle-team--enemy" aria-labelledby="battle-enemy-heading">
+                <header class="battle-team__heading">
+                  <p class="eyebrow">Enemy</p>
+                  <h3 id="battle-enemy-heading">人机队伍</h3>
+                </header>
+                <div id="battle-enemy-team" class="battle-team__roster"></div>
+              </section>
+            </div>
+
+            <div class="battle-turn-bar">
+              <p id="battle-turn-status">战斗尚未开始。</p>
+              <span id="battle-turn-number">第 0 回合</span>
+            </div>
+
+            <div id="battle-log" class="battle-log" aria-live="polite"></div>
+
+            <div id="battle-actions" class="battle-actions" hidden>
+              <button id="battle-normal-button" class="battle-action-button" type="button">
+                普通攻击
+              </button>
+              <button
+                id="battle-skill-button"
+                class="battle-action-button battle-action-button--skill"
+                type="button"
+              >
+                技能攻击
+              </button>
+            </div>
+
+            <div id="battle-result" class="battle-result" hidden>
+              <p id="battle-result-eyebrow" class="eyebrow">Battle Result</p>
+              <h3 id="battle-result-title">战斗结束</h3>
+              <p id="battle-result-text">夜色重新归于寂静。</p>
+              <button id="battle-return-button" class="battle-action-button" type="button">
+                返回编队
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="battle-clear-summary" class="battle-clear-summary" aria-live="polite">
+          <div class="battle-clear-summary__stat">
+            <span>通关次数</span>
+            <strong id="battle-clear-count">0</strong>
+          </div>
+          <div class="battle-clear-summary__stat">
+            <span>通关关数</span>
+            <strong id="battle-clear-stages">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="panel-daily"
+        class="app-panel"
+        data-panel="daily"
+        aria-labelledby="nav-daily"
+        hidden
+      >
+        <div class="daily-draw-panel">
+          <header class="daily-draw-panel__heading">
+            <p class="eyebrow">Daily Draw</p>
+            <h2>魔夜每日抽卡</h2>
+            <p class="daily-draw-panel__description">每日仅一次。抽中的角色会进入真实角色池。</p>
+          </header>
+
+          <div class="daily-draw-layout">
+            <div class="daily-draw-control">
+              <p id="daily-draw-status" class="daily-draw-status" role="status">
+                正在检查今日状态...
+              </p>
+              <button
+                id="daily-draw-button"
+                class="daily-draw-button"
+                type="button"
+                disabled
+              >
+                进行今日抽卡
+              </button>
+              <p id="daily-draw-pool-count" class="daily-draw-pool">
+                今日卡池：正在读取魔夜角色...
+              </p>
+            </div>
+
+            <div id="daily-draw-result" class="daily-draw-result" aria-live="polite">
+              <span
+                id="daily-draw-result-frame"
+                class="daily-draw-result__image-frame image-fallback"
+                data-fallback="DAILY"
+              >
+                <img id="daily-draw-result-image" src="images/aoko.png" alt="每日抽卡结果">
+              </span>
+              <div class="daily-draw-result__copy">
+                <p class="eyebrow">今日结果</p>
+                <h3 id="daily-draw-result-name">尚未抽卡</h3>
+                <p id="daily-draw-result-text">等待夜色给出答案。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="panel-fate"
+        class="app-panel"
+        data-panel="fate"
+        aria-labelledby="nav-fate"
+        hidden
+      >
+        <div class="fate-summon-panel">
+          <header class="fate-summon-panel__heading">
+            <p class="eyebrow">Fate Summon Simulator</p>
+            <h2>Fate模拟抽卡</h2>
+            <p class="fate-summon-panel__description">
+              独立模拟卡池，结果仅用于展示，不影响魔夜角色池。
+            </p>
+          </header>
+
+          <div class="fate-intro-video">
+            <video
+              src="./videos/intro.mp4"
+              width="1280"
+              height="576"
+              muted
+              controls
+              playsinline
+              preload="auto"
+              aria-label="Fate 模拟抽卡宣传视频"
+            ></video>
+          </div>
+
+          <div class="fate-summon-panel__body">
+            <div>
+              <p id="fate-summon-pool-count" class="fate-summon-pool-count">
+                独立模拟卡池：正在读取英灵数据...
+              </p>
+              <p class="fate-summon-pool-note">召唤次数不限。</p>
+            </div>
+            <div class="fate-summon-actions">
+              <button
+                id="fate-summon-single-button"
+                class="fate-summon-button"
+                type="button"
+                disabled
+              >
+                单抽
+              </button>
+              <button
+                id="fate-summon-ten-button"
+                class="fate-summon-button fate-summon-button--ten"
+                type="button"
+                disabled
+              >
+                十连抽
+              </button>
+            </div>
+          </div>
+
+          <div id="fate-summon-result" class="fate-summon-result" hidden>
+            <div class="fate-summon-result__art">
+              <span id="fate-summon-result-emblem">A</span>
+            </div>
+            <div class="fate-summon-result__copy">
+              <p class="eyebrow" id="fate-summon-result-class">Saber</p>
+              <h3 id="fate-summon-result-name">尚未召唤</h3>
+              <div id="fate-summon-result-stars" class="fate-summon-stars">★★★</div>
+            </div>
+          </div>
+
+          <div class="fate-draw-history">
+            <div class="fate-draw-history__heading">
+              <div>
+                <p class="eyebrow">Summon History</p>
+                <h3>抽卡记录</h3>
+              </div>
+              <button
+                id="fate-clear-history"
+                class="fate-clear-history"
+                type="button"
+              >
+                清除记录
+              </button>
+            </div>
+            <div id="fate-draw-history" class="fate-draw-history__list"></div>
+          </div>
+
+          <div id="fate-summon-overlay" class="fate-summon-overlay" hidden>
+            <div
+              id="fate-summon-overlay-card"
+              class="fate-summon-overlay__card"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="fate-summon-overlay-name"
+              data-rarity="3"
+            >
+              <span class="fate-summon-overlay__class" id="fate-summon-overlay-class">
+                Saber
+              </span>
+              <span class="fate-summon-overlay__emblem" id="fate-summon-overlay-emblem">
+                A
+              </span>
+              <h3 id="fate-summon-overlay-name">阿尔托莉雅</h3>
+              <p id="fate-summon-overlay-detail">Saber</p>
+              <div id="fate-summon-overlay-stars" class="fate-summon-overlay__stars">
+                ★★★
+              </div>
+              <button id="fate-summon-close" class="fate-summon-overlay__close" type="button">
+                确认
+              </button>
+            </div>
+
+            <div
+              id="fate-summon-overlay-multi"
+              class="fate-summon-overlay__multi"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="fate-summon-multi-title"
+              hidden
+            >
+              <div class="fate-summon-overlay__multi-heading">
+                <p class="eyebrow">Ten Summon</p>
+                <h3 id="fate-summon-multi-title">十连召唤结果</h3>
+              </div>
+              <div id="fate-summon-multi-grid" class="fate-summon-overlay__multi-grid"></div>
+              <button
+                id="fate-summon-close-multi"
+                class="fate-summon-overlay__close"
+                type="button"
+              >
+                确认
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="panel-leaderboard"
+        class="app-panel"
+        data-panel="leaderboard"
+        aria-labelledby="nav-leaderboard"
+        hidden
+      >
+        <div class="leaderboard-panel">
+          <header class="leaderboard-panel__heading">
+            <p class="eyebrow">Clear Records</p>
+            <h2>排行榜</h2>
+            <p class="leaderboard-panel__description">本地记录，静默保存于夜色之中。</p>
+          </header>
+
+          <div class="leaderboard-summary">
+            <div class="leaderboard-stat">
+              <span>通关次数</span>
+              <strong id="leaderboard-clear-count">0</strong>
+            </div>
+            <div class="leaderboard-stat">
+              <span>通关关数</span>
+              <strong id="leaderboard-clear-stages">0</strong>
+            </div>
+          </div>
+
+          <ol class="leaderboard-list">
+            <li class="leaderboard-entry">
+              <span class="leaderboard-entry__rank">01</span>
+              <span class="leaderboard-entry__player">本地御主</span>
+              <strong id="leaderboard-entry-count">0</strong>
+            </li>
+          </ol>
+
+          <p class="leaderboard-note">记录保存在当前浏览器中。</p>
+        </div>
+      </section>
+    </div>
+
+    <footer class="site-footer">Mahoutsukai no Yoru · Prototype Build</footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
